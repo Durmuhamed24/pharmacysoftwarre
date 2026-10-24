@@ -231,3 +231,4 @@ SQLite file: `backend/data/pharmacy.db` (created automatically on seed).
 ## License
 
 Internal demo project. Not for commercial use without regulatory compliance review.
+# pharmacysoftwarre
