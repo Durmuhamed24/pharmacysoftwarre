@@ -1,0 +1,17 @@
+{
+  "name": "pharmacy-software",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Complete Pharmacy Management System for Pakistan pharmacies",
+  "scripts": {
+    "dev": "concurrently \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
